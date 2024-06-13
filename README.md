@@ -1,6 +1,7 @@
 ## 这是什么？
-使用python调用redsocks，在Linux上实现类似proxifier的功能。
-支持多组配置，目的地址支持ip段、单个ip、指定ip加端口
+使用python调用redsocks，在Linux上实现类似proxifier的功能。  
+支持多组配置，目的地址支持ip段、单个ip、指定ip加端口。  
+程序支持99组配置，占用123xx端口。  
 
 ## 如何使用？
 
