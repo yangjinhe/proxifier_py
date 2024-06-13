@@ -45,7 +45,7 @@ def setup_iptables(config):
     subprocess.run(['iptables', '-t', 'nat', '-N', IPTABLES_CHAIN])
 
     for idx, entry in enumerate(config):
-        local_port = f"123" + pad_with_zero(idx)
+        local_port = f"123{pad_with_zero(idx)}"
         for target in entry['targets']:
             target_ip = target.split(':')[0]
             target_port = target.split(':')[1] if ':' in target else None
