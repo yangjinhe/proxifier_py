@@ -34,5 +34,11 @@ sudo apt-get install iptables redsocks
 
 - 启动
 ```shell
-sudo python3 main.py
+sudo python3 main.py start
 ```
+
+- 停止
+```shell
+sudo python3 main.py stop
+```
+
