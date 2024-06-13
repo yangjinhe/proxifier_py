@@ -4,3 +4,5 @@
 ```
 sudo apt-get install iptables redsocks
 ```
+
+支持多组配置，目的地址支持ip段、单个ip、指定ip加端口
